@@ -1,0 +1,34 @@
+﻿<Page
+    x:Class="Weather_Upate.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Weather_Upate"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource AppBarBackgroundThemeBrush}">
+
+    <Grid>
+        <NavigationView x:ConnectionId='2' IsBackButtonVisible="Collapsed" 
+                        IsBackEnabled="False" 
+                        PaneDisplayMode="LeftCompact" 
+                        IsPaneOpen="False"  
+                        PaneTitle="菜单" 
+                                                     
+                        Height="Auto">
+            <NavigationView.MenuItems>
+                <NavigationViewItem x:ConnectionId='3' Icon="Home" Content="首页" IsSelected="True" Name="HomeButt"/>
+                <NavigationViewItem x:ConnectionId='4' Icon="OutlineStar" Content="收藏夹" Name="Fav"/>
+                <NavigationViewItem x:ConnectionId='5' Icon="Find" Content="搜索" Name="Find"/>
+                <NavigationViewItem x:ConnectionId='6' Icon="Add" Content="添加城市" Name="Add"/>
+            </NavigationView.MenuItems>
+            <Frame x:ConnectionId='7' x:Name="Home"/>
+        </NavigationView>
+        <CommandBar  HorizontalAlignment="Right" DefaultLabelPosition="Bottom" Background="Transparent" VerticalAlignment="Bottom">
+            <AppBarButton Icon="Tag" Label="标签"/>
+            <AppBarButton Icon="Refresh" Label="刷新"/>
+            <AppBarButton Icon="Share" Label="分享"/>
+        </CommandBar>
+    </Grid>
+</Page>
+

@@ -1,0 +1,1 @@
+D:\Dev\Weather Up\Weather Upate\Weather Upate.csproj;x86

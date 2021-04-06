@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Source>D:\Dev\Weather Up\Weather Upate\Assets\未标题-1.png</Source>
+    <SmallTileSource>D:\Dev\Weather Up\Weather Upate\Assets\未标题-1.png</SmallTileSource>
+    <MediumTileSource>D:\Dev\Weather Up\Weather Upate\Assets\未标题-1.png</MediumTileSource>
+    <WideTileSource>D:\Dev\Weather Up\Weather Upate\Assets\未标题-1.png</WideTileSource>
+    <LargeTileSource>D:\Dev\Weather Up\Weather Upate\Assets\未标题-1.png</LargeTileSource>
+    <AppIconSource>D:\Dev\Weather Up\Weather Upate\Assets\未标题-1.png</AppIconSource>
+    <SplashScreenSource>D:\Dev\Weather Up\Weather Upate\Assets\未标题-1.png</SplashScreenSource>
+    <PackageLogoSource>D:\Dev\Weather Up\Weather Upate\Assets\未标题-1.png</PackageLogoSource>
+  </PropertyGroup>
+</Project>
